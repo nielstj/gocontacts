@@ -11,7 +11,7 @@ import (
 type Contact struct {
 	gorm.Model
 	Name   string `json:"name"`
-	Phone  string `json:"pone"`
+	Phone  string `json:"phone"`
 	UserID uint   `json:"user_id"`
 }
 
